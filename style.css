@@ -81,6 +81,7 @@
     flex-direction: row;
     gap: 2rem;
     margin-left: 10%;
+    text-decoration: none;
 }
 
   .socials {
@@ -91,10 +92,13 @@
     margin-right: 2rem;
 }
 
-.nav-list > li:hover {
+.nav-list > a li {
+  color: white;
+}
+
+.nav-list > a li:hover {
   color: gray;
   cursor: pointer;
-
 }
 
 .socials:hover {
@@ -283,6 +287,7 @@
   display: flex;
   justify-content: space-around;
   background-color: darkslategray;
+  color: white;
 }
 
 .icons {
@@ -303,4 +308,30 @@
   background-color: black;
   color: white;
   padding: 2rem;
+}
+
+.footer-naslovi {
+  font-weight: 700;
+}
+
+.serv-content {
+  color: gray;
+}
+
+.blog-slika1 {
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.blog1 {
+  height: 100%;
+}
+
+.blog-slika1 img {
+  transition: transform .5s ease;
+}
+
+.blog-slika1:hover img {
+  transform: scale(1.5);
 }
